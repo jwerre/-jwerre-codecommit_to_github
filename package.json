@@ -1,0 +1,33 @@
+{
+  "name": "codecommit-to-github",
+  "version": "1.0.0",
+  "description": "Mirgrate an AWS CodeCommit repository to Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jwerre/codecommit-to-github.git"
+  },
+  "keywords": [
+    "aws",
+    "codecommit",
+    "github.",
+    "migration"
+  ],
+  "author": "Jonah Werre <jonah@surveyplanet.com> (https://surveyplanet.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwerre/codecommit-to-github/issues"
+  },
+  "homepage": "https://github.com/jwerre/codecommit-to-github#readme",
+  "bin": {
+    "codecommit-to-github": "index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.733.0",
+    "github-api": "^3.3.0",
+    "minimist": "^1.2.5"
+  }
+}
