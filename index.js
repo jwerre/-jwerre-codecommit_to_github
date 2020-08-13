@@ -29,7 +29,7 @@ Usage: codecommit-to-github --username myusername --password 1234abcd ./path/to/
 
 Options:
 -t, --token		Github auth token.
--r, --remote		Name of remote to migrate (default: '${DEFAULT_REMOTE}').
+-r, --remote		Remote name to migrate (default: '${DEFAULT_REMOTE}').
 -a, --aws-profile	AWS profile name (default: 'default').
 -o, --organization	Name of organization to create repo under instead of user.
 -p, --public		Whether the github repo should be public, defaults to private.
